@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+        <link href="https://fonts.googleapis.com/css?family=Dhurjati" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Black Jack</h1>
+        <div class="player-container">
+            <div class="player">
+                <h2>Player</h2>
+                <img class="playerCard1" id="cardmain" src="cardIMGs/back.png">
+                <img class="playerCard2" id="cardmain" src="cardIMGs/back.png">
+                <img class="playerCard3" id="cardmain" src="cardIMGs/back.png">
+                <img class="playerCard4" id="cardmain" src="cardIMGs/back.png">
+                <img class="playerCard5" id="cardmain" src="cardIMGs/back.png">
+                <p class="total" id="playerTotal">Total: 0</p>
+            </div>
+            <div class="dealer">
+                <h2>Dealer</h2>
+                <img class="dealerCard1" id="cardmain" src="cardIMGs/back.png">
+                <img class="dealerCard2" id="cardmain" src="cardIMGs/back.png">
+                <img class="dealerCard3" id="cardmain" src="cardIMGs/back.png">
+                <img class="dealerCard4" id="cardmain" src="cardIMGs/back.png">
+                <img class="dealerCard5" id="cardmain" src="cardIMGs/back.png">
+                <p class="total" id="dealerTotal">Total: 0</p>
+            </div>
+
+            <div class="start">
+                <p>Start Game</p>
+                <button id="btnStart"><i class="material-icons">label_outline</i></button>
+            </div>
+            <div class="hit">
+                <p>Hit</p>
+                <button id="btnHit"><i class="material-icons hit">pan_tool</i></button>
+            </div>
+            <div class="stick">
+                <p>Stick</p>
+                <button id="btnStick"><i class="material-icons">remove_circle</i></button>
+            </div>
+            
+            
+        </div>
+        <script src="blackJack.js"></script>
+    </body>
+</html>

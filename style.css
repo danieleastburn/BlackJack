@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background-color: black;
+    font-family: 'Dhurjati', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    
+}
+
+.player-container{
+    width: 1400px;
+    height: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkolivegreen;
+    text-align: center;
+}
+
+.player-container>.player>.total{
+    position: absolute;
+    top: 20%;
+    left: 82%;
+    font-size: 40px;
+}
+
+.player-container>.dealer>.total{
+    position: absolute;
+    top: 65%;
+    left: 82%;
+    font-size: 40px;
+}
+
+.player-container>.hit{
+    position: absolute;
+    top: 60%;
+    left: 4%;
+
+}
+
+.player-container>.hit>p{
+    font-size: 40px;
+
+}
+
+
+.player-container>.hit>button>i{
+    font-size: 55px;
+    
+}
+.player-container>.hit>button{
+    background-color: transparent;
+    border: none;
+    color: rgb(211, 8, 8);
+}
+
+.player-container>.stick{
+    position: absolute;
+    top: 60%;
+    left: 10%;
+
+}
+
+.player-container>.stick>p{
+    font-size: 40px;
+}
+
+.player-container>.stick>button>i{
+    font-size: 60px;
+    
+}
+.player-container>.stick>button{
+    background-color: transparent;
+    border: none;
+    color: rgb(34, 34, 228)
+}
+
+.player-container>.start{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+
+}
+
+.player-container>.start>p{
+    font-size: 40px;
+}
+
+.player-container>.start>button>i{
+    font-size: 60px;
+    
+}
+.player-container>.start>button{
+    background-color: transparent;
+    border: none;
+    color: rgb(185, 155, 18)
+}
+
+#cardmain{
+    width: 165px;
+    height: auto;
+    border: solid black;
+    background: whitesmoke;
+}
+
+
+
+
